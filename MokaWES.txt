@@ -1,0 +1,187 @@
+Result 1:
+ID                  workflow-F9GG8Z00jy1jkfP2JBkx3BXy
+Class               workflow
+Project             project-ByfFPz00jy1fk6PjpZ95F27J
+Folder              /Workflows
+Name                MokaWES_v1.0
+State               open
+Visibility          visible
+Types               -
+Properties          github release=v1.0
+Tags                WES
+Outgoing links      -
+Created             Fri Jan 12 14:21:04 2018
+Created by          amys
+Last modified       Fri Jan 12 14:28:32 2018
+Edit Version        36
+Title               MokaWES_v1.0
+Summary             
+Output Folder       -
+Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.format (string,
+                  default="auto")]
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.kmer_size (int,
+                  default=7)]
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.nogroup (boolean,
+                  default=true)]
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.extra_options (string)]
+                stage-F9BP0XQ0jy1g51930qzQZ7FQ: Sample Information:
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.sample (string)]
+                stage-F9BP0XQ0jy1g51930qzQZ7FQ:
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.reads_fastqgzs
+                  (array:file, default=[{"$dnanexus_link":
+                  {"inputField": "reads", "stage":
+                  "stage-Bz3YpP80jy1Y1pZKbZ35Bp0x"}}])]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.reads2_fastqgzs
+                  (array:file, default=[{"$dnanexus_link":
+                  {"inputField": "reads", "stage":
+                  "stage-Bz3YpP80jy1x7G5QfG3442gX"}}])]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.rg_info_csv (file)]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.hash_table (file,
+                  default={"$dnanexus_link": {"project":
+                  "project-BQpp3Y804Y0xbyG4GJPQ01xv", "id":
+                  "file-F8P65K80zB60Qbx60fxv24y2"}})]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.targets_bed (file,
+                  default={"$dnanexus_link":
+                  "file-F25VXZj0ybjzxpg0JvppGgQq"})]
+                stage-Bz3YpP80jy1x7G5QfG3442gX:
+                    stage-Bz3YpP80jy1x7G5QfG3442gX.reads (file)
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.contaminants_txt (file)]
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.adapters_txt (file)]
+                    [stage-Bz3YpP80jy1x7G5QfG3442gX.limits_txt (file)]
+                stage-Bz3YpP80jy1Y1pZKbZ35Bp0x: Advanced:
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.format (string,
+                  default="auto")]
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.kmer_size (int,
+                  default=7)]
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.nogroup (boolean,
+                  default=true)]
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.extra_options (string)]
+                stage-Bz3YpP80jy1Y1pZKbZ35Bp0x:
+                    stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.reads (file)
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.contaminants_txt (file)]
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.adapters_txt (file)]
+                    [stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.limits_txt (file)]
+                stage-F35zBKQ0jy1XpfzYPZY4bgX6:
+                    [stage-F35zBKQ0jy1XpfzYPZY4bgX6.sambamba_bed (file,
+                  default={"$dnanexus_link":
+                  "file-F1g7z4Q0jy1qfzZf3Z4b0zX3"})]
+                    [stage-F35zBKQ0jy1XpfzYPZY4bgX6.bamfile (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_bam", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                    [stage-F35zBKQ0jy1XpfzYPZY4bgX6.bam_index (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_bai", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                stage-F9BP0XQ0jy1g51930qzQZ7FQ: Algorithm Options:
+                [stage-F9BP0XQ0jy1g51930qzQZ7FQ.mark_or_remove_duplicates
+                  (string, default="mark_duplicate")]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.generate_md_tag
+                  (boolean, default=true)]
+                stage-F9GGBQj0jy1yBbpZPvK5GvPJ:
+                    [stage-F9GGBQj0jy1yBbpZPvK5GvPJ.sorted_bam (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_bam", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                    [stage-F9GGBQj0jy1yBbpZPvK5GvPJ.fasta_index (file,
+                  default={"$dnanexus_link":
+                  "file-ByYgX700b80gf4ZY1GxvF3Jv"})]
+                    [stage-F9GGBQj0jy1yBbpZPvK5GvPJ.vendor_exome_bedfile
+                  (file, default={"$dnanexus_link":
+                  "file-F25VXZj0ybjzxpg0JvppGgQq"})]
+                stage-F9GGBZQ0jy1p9F65PjgQ5bFv:
+                    [stage-F9GGBZQ0jy1p9F65PjgQ5bFv.input_bam (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_bam", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                    [stage-F9GGBZQ0jy1p9F65PjgQ5bFv.input_bam_index (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_bai", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                stage-Byz9Bj80jy1k2VB9xVXBp0Fp:
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.vcfs (array:file,
+                  default=[{"$dnanexus_link":
+                  {"outputField": "vcf", "stage":
+                  "stage-F2gPqFQ025p601qgGq0QVvX2"}}])]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.email (string,
+                  default="joowook.ahn@nhs.net")]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.desc_source (string,
+                  default="1) Existing DNAnexus tags and
+                  properties")]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.description (string,
+                  default="")]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.description_file (file)]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.bam_files (array:file,
+                  default=[{"$dnanexus_link":
+                  {"outputField": "output_bam", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}}])]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.bai_files (array:file,
+                  default=[{"$dnanexus_link":
+                  {"outputField": "output_bai", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}}])]
+                    [stage-Byz9Bj80jy1k2VB9xVXBp0Fp.reference_genome_name
+                  (string, default="GRCh37")]
+                stage-F2gPqFQ025p601qgGq0QVvX2:
+                    [stage-F2gPqFQ025p601qgGq0QVvX2.gatk_jar_file (file,
+                  default={"$dnanexus_link":
+                  "file-Byy2gGj0V695BXBb6Q33j2Kj"})]
+                    [stage-F2gPqFQ025p601qgGq0QVvX2.prev_class (file,
+                  default={"$dnanexus_link":
+                  "file-F2YPPj80j4gFP8ZB3VGfkq43"})]
+                    [stage-F2gPqFQ025p601qgGq0QVvX2.sample_vcf (file,
+                  default={"$dnanexus_link": {"outputField":
+                  "output_vcf", "stage":
+                  "stage-F9BP0XQ0jy1g51930qzQZ7FQ"}})]
+                    [stage-F2gPqFQ025p601qgGq0QVvX2.reference_genome (file,
+                  default={"$dnanexus_link":
+                  "file-ByYgX700b80gf4ZY1GxvF3Jv"})]
+Output Spec         stage-Bz3YpP80jy1x7G5QfG3442gX:
+                    stage-Bz3YpP80jy1x7G5QfG3442gX.report_html (file)
+                    stage-Bz3YpP80jy1x7G5QfG3442gX.stats_txt (file)
+                stage-F9BP0XQ0jy1g51930qzQZ7FQ:
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_bam (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_bai (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_vcf (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_tbi (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_hard_filtered_vcf
+                  (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.output_hard_filtered_tbi
+                  (file)
+                    stage-F9BP0XQ0jy1g51930qzQZ7FQ.stats (array:file)
+                stage-Bz3YpP80jy1Y1pZKbZ35Bp0x:
+                    stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.report_html (file)
+                    stage-Bz3YpP80jy1Y1pZKbZ35Bp0x.stats_txt (file)
+                stage-F35zBKQ0jy1XpfzYPZY4bgX6:
+                    stage-F35zBKQ0jy1XpfzYPZY4bgX6.chanjo_raw_output
+                  (array:file)
+                    stage-F35zBKQ0jy1XpfzYPZY4bgX6.chanjo_yaml (array:file)
+                    stage-F35zBKQ0jy1XpfzYPZY4bgX6.chanjo_output_to_report
+                  (array:file)
+                stage-F9GGBQj0jy1yBbpZPvK5GvPJ:
+                    stage-F9GGBQj0jy1yBbpZPvK5GvPJ.moka_picard_stats
+                  (array:file)
+                stage-F9GGBZQ0jy1p9F65PjgQ5bFv:
+                    stage-F9GGBZQ0jy1p9F65PjgQ5bFv.verifybamid_out
+                  (array:file)
+                stage-Byz9Bj80jy1k2VB9xVXBp0Fp:
+                    stage-Byz9Bj80jy1k2VB9xVXBp0Fp.results_url (string)
+                stage-F2gPqFQ025p601qgGq0QVvX2:
+                    stage-F2gPqFQ025p601qgGq0QVvX2.vcf (file)
+Stage 0             stage-Bz3YpP80jy1Y1pZKbZ35Bp0x
+  Executable        applet-F35z7Fj0jy1gjq2Z9KPqby0j
+Stage 1             stage-Bz3YpP80jy1x7G5QfG3442gX
+  Executable        applet-F35z7Fj0jy1gjq2Z9KPqby0j
+Stage 2             stage-F9BP0XQ0jy1g51930qzQZ7FQ
+  Executable        app-dragen_gp_germline_fq/0.0.9
+Stage 3             stage-F9GGBQj0jy1yBbpZPvK5GvPJ
+  Executable        applet-F9GG41j0x31ypzKYBX0g2yzb
+Stage 4             stage-F2gPqFQ025p601qgGq0QVvX2
+  Executable        applet-F4XpKYQ0jy1xxBqZ8Vj1b804
+Stage 5             stage-F9GGBZQ0jy1p9F65PjgQ5bFv
+  Executable        applet-F9BPZ2Q0jy1vbpFx0xzjkzbB
+Stage 6             stage-F35zBKQ0jy1XpfzYPZY4bgX6
+  Executable        applet-F3x29B007K0YGfqk0vFPp5qQ
+Stage 7             stage-Byz9Bj80jy1k2VB9xVXBp0Fp
+  Executable        app-ingenuity_variant_transfer/1.0.6
+temporary           false
