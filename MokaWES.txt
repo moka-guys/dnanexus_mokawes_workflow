@@ -1,20 +1,20 @@
 Result 1:
-ID                  workflow-F9GG8Z00jy1jkfP2JBkx3BXy
+ID                  workflow-FBPGz380jy1Y5Kk7P2XVQxgz
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
-Name                MokaWES_v1.0
+Name                MokaWES_v1.1
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.0
+Properties          github release=v1.1
 Tags                WES
 Outgoing links      -
-Created             Fri Jan 12 14:21:04 2018
-Created by          amys
-Last modified       Fri Jan 12 14:28:32 2018
-Edit Version        36
-Title               MokaWES_v1.0
+Created             Tue Mar  6 17:27:41 2018
+Created by          aledjones
+Last modified       Wed Mar  7 10:40:29 2018
+Edit Version        33
+Title               MokaWES_v1.1
 Summary             
 Output Folder       -
 Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
@@ -169,19 +169,20 @@ Output Spec         stage-Bz3YpP80jy1x7G5QfG3442gX:
                 stage-F2gPqFQ025p601qgGq0QVvX2:
                     stage-F2gPqFQ025p601qgGq0QVvX2.vcf (file)
 Stage 0             stage-Bz3YpP80jy1Y1pZKbZ35Bp0x
-  Executable        applet-F35z7Fj0jy1gjq2Z9KPqby0j
+  Executable        applet-FBPFfkj0jy1Q114YGQ0yQX8Y
 Stage 1             stage-Bz3YpP80jy1x7G5QfG3442gX
-  Executable        applet-F35z7Fj0jy1gjq2Z9KPqby0j
+  Executable        applet-FBPFfkj0jy1Q114YGQ0yQX8Y
 Stage 2             stage-F9BP0XQ0jy1g51930qzQZ7FQ
   Executable        app-dragen_gp_germline_fq/0.0.9
 Stage 3             stage-F9GGBQj0jy1yBbpZPvK5GvPJ
   Executable        applet-F9GG41j0x31ypzKYBX0g2yzb
 Stage 4             stage-F2gPqFQ025p601qgGq0QVvX2
-  Executable        applet-F4XpKYQ0jy1xxBqZ8Vj1b804
+  Executable        applet-FBPq4xQ0jy1g96432f1gJqXy
 Stage 5             stage-F9GGBZQ0jy1p9F65PjgQ5bFv
-  Executable        applet-F9BPZ2Q0jy1vbpFx0xzjkzbB
+  Executable        applet-FBPFf1j0jy1jjF5PP2774y16
 Stage 6             stage-F35zBKQ0jy1XpfzYPZY4bgX6
-  Executable        applet-F3x29B007K0YGfqk0vFPp5qQ
+  Executable        applet-FBPq4P00jy1Yz0Y62ZzqGGk7
 Stage 7             stage-Byz9Bj80jy1k2VB9xVXBp0Fp
   Executable        app-ingenuity_variant_transfer/1.0.6
+initializedFrom     workflow-FBPGz0j0jy1qxXGx9Gfgkpb0
 temporary           false
