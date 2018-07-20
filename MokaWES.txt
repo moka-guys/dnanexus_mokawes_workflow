@@ -1,20 +1,20 @@
 Result 1:
-ID                  workflow-FBPGz380jy1Y5Kk7P2XVQxgz
+ID                  workflow-FJ89fG80jy1VXqYP1gj0ybF9
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
-Name                MokaWES_v1.1
+Name                MokaWES_v1.2
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.1
+Properties          github release=v1.2
 Tags                WES
 Outgoing links      -
-Created             Tue Mar  6 17:27:41 2018
+Created             Thu Jul 19 15:07:45 2018
 Created by          aledjones
-Last modified       Wed Mar  7 10:40:29 2018
-Edit Version        33
-Title               MokaWES_v1.1
+Last modified       Thu Jul 19 16:05:47 2018
+Edit Version        29
+Title               MokaWES_v1.2
 Summary             
 Output Folder       -
 Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
@@ -27,6 +27,8 @@ Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
                     [stage-Bz3YpP80jy1x7G5QfG3442gX.extra_options (string)]
                 stage-F9BP0XQ0jy1g51930qzQZ7FQ: Sample Information:
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.sample (string)]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.read_group_platform
+                  (string, default="ILLUMINA")]
                 stage-F9BP0XQ0jy1g51930qzQZ7FQ:
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.reads_fastqgzs
                   (array:file, default=[{"$dnanexus_link":
@@ -43,7 +45,7 @@ Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
                   "file-F8P65K80zB60Qbx60fxv24y2"}})]
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.targets_bed (file,
                   default={"$dnanexus_link":
-                  "file-F25VXZj0ybjzxpg0JvppGgQq"})]
+                  "file-FJ88Pp80jy1xJ8f4P6G9BpKV"})]
                 stage-Bz3YpP80jy1x7G5QfG3442gX:
                     stage-Bz3YpP80jy1x7G5QfG3442gX.reads (file)
                     [stage-Bz3YpP80jy1x7G5QfG3442gX.contaminants_txt (file)]
@@ -79,6 +81,8 @@ Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
                   (string, default="mark_duplicate")]
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.generate_md_tag
                   (boolean, default=true)]
+                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.hair_pin_filter
+                  (boolean, default=false)]
                 stage-F9GGBQj0jy1yBbpZPvK5GvPJ:
                     [stage-F9GGBQj0jy1yBbpZPvK5GvPJ.sorted_bam (file,
                   default={"$dnanexus_link": {"outputField":
@@ -173,7 +177,7 @@ Stage 0             stage-Bz3YpP80jy1Y1pZKbZ35Bp0x
 Stage 1             stage-Bz3YpP80jy1x7G5QfG3442gX
   Executable        applet-FBPFfkj0jy1Q114YGQ0yQX8Y
 Stage 2             stage-F9BP0XQ0jy1g51930qzQZ7FQ
-  Executable        app-dragen_gp_germline_fq/0.0.9
+  Executable        app-dragen_gp_germline_fq/0.1.2
 Stage 3             stage-F9GGBQj0jy1yBbpZPvK5GvPJ
   Executable        applet-F9GG41j0x31ypzKYBX0g2yzb
 Stage 4             stage-F2gPqFQ025p601qgGq0QVvX2
@@ -184,5 +188,4 @@ Stage 6             stage-F35zBKQ0jy1XpfzYPZY4bgX6
   Executable        applet-FBPq4P00jy1Yz0Y62ZzqGGk7
 Stage 7             stage-Byz9Bj80jy1k2VB9xVXBp0Fp
   Executable        app-ingenuity_variant_transfer/1.0.6
-initializedFrom     workflow-FBPGz0j0jy1qxXGx9Gfgkpb0
-temporary           false
+initializedFrom     workflow-FBPGz380jy1Y5Kk7P2XVQxgz
