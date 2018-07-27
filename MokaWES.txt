@@ -1,20 +1,20 @@
 Result 1:
-ID                  workflow-FJ89fG80jy1VXqYP1gj0ybF9
+ID                  workflow-FJGkG300jy1b28X54Bb9q05P
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
-Name                MokaWES_v1.2
+Name                MokaWES_v1.3
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.2
+Properties          github release=v1.3
 Tags                WES
 Outgoing links      -
-Created             Thu Jul 19 15:07:45 2018
-Created by          aledjones
-Last modified       Thu Jul 19 16:05:47 2018
-Edit Version        29
-Title               MokaWES_v1.2
+Created             Thu Jul 26 10:36:12 2018
+Created by          andyb
+Last modified       Fri Jul 27 11:56:48 2018
+Edit Version        32
+Title               MokaWES_v1.3
 Summary             
 Output Folder       -
 Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
@@ -27,8 +27,6 @@ Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
                     [stage-Bz3YpP80jy1x7G5QfG3442gX.extra_options (string)]
                 stage-F9BP0XQ0jy1g51930qzQZ7FQ: Sample Information:
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.sample (string)]
-                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.read_group_platform
-                  (string, default="ILLUMINA")]
                 stage-F9BP0XQ0jy1g51930qzQZ7FQ:
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.reads_fastqgzs
                   (array:file, default=[{"$dnanexus_link":
@@ -81,8 +79,6 @@ Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
                   (string, default="mark_duplicate")]
                     [stage-F9BP0XQ0jy1g51930qzQZ7FQ.generate_md_tag
                   (boolean, default=true)]
-                    [stage-F9BP0XQ0jy1g51930qzQZ7FQ.hair_pin_filter
-                  (boolean, default=false)]
                 stage-F9GGBQj0jy1yBbpZPvK5GvPJ:
                     [stage-F9GGBQj0jy1yBbpZPvK5GvPJ.sorted_bam (file,
                   default={"$dnanexus_link": {"outputField":
@@ -177,7 +173,7 @@ Stage 0             stage-Bz3YpP80jy1Y1pZKbZ35Bp0x
 Stage 1             stage-Bz3YpP80jy1x7G5QfG3442gX
   Executable        applet-FBPFfkj0jy1Q114YGQ0yQX8Y
 Stage 2             stage-F9BP0XQ0jy1g51930qzQZ7FQ
-  Executable        app-dragen_gp_germline_fq/0.1.2
+  Executable        app-dragen_gp_germline_fq/0.0.9
 Stage 3             stage-F9GGBQj0jy1yBbpZPvK5GvPJ
   Executable        applet-F9GG41j0x31ypzKYBX0g2yzb
 Stage 4             stage-F2gPqFQ025p601qgGq0QVvX2
@@ -188,4 +184,4 @@ Stage 6             stage-F35zBKQ0jy1XpfzYPZY4bgX6
   Executable        applet-FBPq4P00jy1Yz0Y62ZzqGGk7
 Stage 7             stage-Byz9Bj80jy1k2VB9xVXBp0Fp
   Executable        app-ingenuity_variant_transfer/1.0.6
-initializedFrom     workflow-FBPGz380jy1Y5Kk7P2XVQxgz
+initializedFrom     workflow-FJGkFx00jy1Q1v72JXVKYKJB
