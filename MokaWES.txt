@@ -1,20 +1,20 @@
 Result 1:
-ID                  workflow-FQJ48zj0jy1V4Ggb7293V608
+ID                  workflow-FXXxQ4Q0jy1f0Xv92bXb4zb8
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
-Name                MokaWES_v1.4
+Name                MokaWES_v1.5
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.4
+Properties          github release=v1.5
 Tags                WES
 Outgoing links      -
-Created             Wed Dec 19 13:15:43 2018
-Created by          aledjones
-Last modified       Wed Dec 19 13:15:43 2018
+Created             Thu Apr  4 11:10:26 2019
+Created by          andyb
+Last modified       Thu Apr  4 11:10:26 2019
 Edit Version        0
-Title               MokaWES_v1.4
+Title               MokaWES_v1.5
 Summary             
 Output Folder       -
 Input Spec          stage-Bz3YpP80jy1x7G5QfG3442gX: Advanced:
@@ -218,7 +218,7 @@ Stage 3             stage-F9GGBQj0jy1yBbpZPvK5GvPJ
 Stage 4             stage-F2gPqFQ025p601qgGq0QVvX2
   Executable        applet-FBPq4xQ0jy1g96432f1gJqXy
 Stage 5             stage-F9GGBZQ0jy1p9F65PjgQ5bFv
-  Executable        applet-FBPFf1j0jy1jjF5PP2774y16
+  Executable        applet-FXXvZ280jy1ZzV5p5PJPX9bQ
 Stage 6             stage-F35zBKQ0jy1XpfzYPZY4bgX6
   Executable        applet-FPv2PV80jy1jZBVF8J1zp7YF
 Stage 7             stage-Byz9Bj80jy1k2VB9xVXBp0Fp
