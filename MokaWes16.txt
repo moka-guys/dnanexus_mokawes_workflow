@@ -1,5 +1,5 @@
 Result 1:
-ID                  workflow-Ff153Y80jy1jpXFfFzz6Z8By
+ID                  workflow-FfJYF7Q0jy1VzGBXJ6xQBVyJ
 Class               workflow
 Project             project-ByfFPz00jy1fk6PjpZ95F27J
 Folder              /Workflows
@@ -10,31 +10,14 @@ Types               -
 Properties          -
 Tags                -
 Outgoing links      -
-Created             Wed Sep 18 16:48:29 2019
-Created by          natashap
-Last modified       Wed Sep 18 16:48:29 2019
-Edit Version        0
+Created             Mon Oct  7 13:54:54 2019
+Created by          mokaguys
+Last modified       Mon Oct  7 13:55:49 2019
+Edit Version        5
 Title               MokaWES_v1.6
 Summary             
 Output Folder       -
-Input Spec          stage-Ff0PBq80GYKX2vGF9GZkJXPQ:
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.vcfs (array:file,
-                  default=[{"$dnanexus_link":
-                  {"outputField": "variants_vcf", "stage":
-                  "stage-Ff0P73j0GYKX41VkF3j62F9j"}}])]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.email (string,
-                  default="joowook.ahn@nhs.net")]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.desc_source (string,
-                  default="1) Existing DNAnexus tags and
-                  properties")]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.description (string,
-                  default="")]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.description_file (file)]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.bam_files (array:file)]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.bai_files (array:file)]
-                    [stage-Ff0PBq80GYKX2vGF9GZkJXPQ.reference_genome_name
-                  (string, default="GRCh37")]
-                stage-Ff0P7v00GYKv869p5Fgp9pgy:
+Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                     [stage-Ff0P7v00GYKv869p5Fgp9pgy.input_bam (file,
                   default={"$dnanexus_link": {"outputField":
                   "mappings_bam", "stage":
@@ -150,9 +133,7 @@ Input Spec          stage-Ff0PBq80GYKX2vGF9GZkJXPQ:
                     [stage-Ff0P5V00GYKyJfpX5bqX69Yg.nogroup (boolean,
                   default=true)]
                     [stage-Ff0P5V00GYKyJfpX5bqX69Yg.extra_options (string)]
-Output Spec         stage-Ff0PBq80GYKX2vGF9GZkJXPQ:
-                    stage-Ff0PBq80GYKX2vGF9GZkJXPQ.results_url (string)
-                stage-Ff0P73j0GYKX41VkF3j62F9j:
+Output Spec         stage-Ff0P73j0GYKX41VkF3j62F9j:
                     stage-Ff0P73j0GYKX41VkF3j62F9j.variants_vcf (file)
                     stage-Ff0P73j0GYKX41VkF3j62F9j.variants_vcftbi (file)
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.variants_gvcf (file)]
@@ -191,5 +172,4 @@ Stage 4             stage-Ff0P7v00GYKv869p5Fgp9pgy
   Executable        applet-FXXvZ280jy1ZzV5p5PJPX9bQ
 Stage 5             stage-Ff0P82Q0GYKQ4j8b4gXzjqxX
   Executable        applet-FVf1Kx00jy1fjpyY64fvJvpq
-Stage 6             stage-Ff0PBq80GYKX2vGF9GZkJXPQ
-  Executable        app-ingenuity_variant_transfer/1.0.6
+initializedFrom     workflow-Ff153Y80jy1jpXFfFzz6Z8By
