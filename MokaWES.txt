@@ -12,8 +12,8 @@ Tags                WES
 Outgoing links      -
 Created             Mon Oct  7 13:54:54 2019
 Created by          mokaguys
-Last modified       Thu Oct 10 16:24:46 2019
-Edit Version        13
+Last modified       Thu Oct 10 16:53:57 2019
+Edit Version        19
 Title               MokaWES_v1.6
 Summary             
 Output Folder       -
@@ -43,10 +43,14 @@ Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                     [stage-Ff0P82Q0GYKQ4j8b4gXzjqxX.coverage_level (string,
                   default="20")]
                 stage-Ff0P73j0GYKX41VkF3j62F9j:
-                    stage-Ff0P73j0GYKX41VkF3j62F9j.reads_fastqgzs
-                  (array:file)
+                    [stage-Ff0P73j0GYKX41VkF3j62F9j.reads_fastqgzs
+                  (array:file, default=[{"$dnanexus_link":
+                  {"inputField": "reads", "stage":
+                  "stage-Ff0P5Jj0GYKY717pKX3vX8Z3"}}])]
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.reads2_fastqgzs
-                  (array:file)]
+                  (array:file, default=[{"$dnanexus_link":
+                  {"inputField": "reads", "stage":
+                  "stage-Ff0P5V00GYKyJfpX5bqX69Yg"}}])]
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.rg_info_csv (file)]
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.genomebwaindex_targz
                   (file, default={"$dnanexus_link":
