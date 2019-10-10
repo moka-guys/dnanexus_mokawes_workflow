@@ -12,8 +12,8 @@ Tags                WES
 Outgoing links      -
 Created             Mon Oct  7 13:54:54 2019
 Created by          mokaguys
-Last modified       Mon Oct  7 15:37:11 2019
-Edit Version        5
+Last modified       Thu Oct 10 16:24:46 2019
+Edit Version        13
 Title               MokaWES_v1.6
 Summary             
 Output Folder       -
@@ -29,7 +29,7 @@ Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                 stage-Ff0P82Q0GYKQ4j8b4gXzjqxX:
                     [stage-Ff0P82Q0GYKQ4j8b4gXzjqxX.sambamba_bed (file,
                   default={"$dnanexus_link":
-                  "file-Fb8XFp00jy1kbGjXKjx2ZKP3"})]
+                  "file-F1g7z4Q0jy1qfzZf3Z4b0zX3"})]
                     [stage-Ff0P82Q0GYKQ4j8b4gXzjqxX.bamfile (file,
                   default={"$dnanexus_link": {"outputField":
                   "mappings_bam", "stage":
@@ -67,9 +67,8 @@ Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                     [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.fasta_index (file,
                   default={"$dnanexus_link":
                   "file-ByYgX700b80gf4ZY1GxvF3Jv"})]
-                    [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.vendor_exome_bedfile
-                  (file, default={"$dnanexus_link":
-                  "file-Fb8XFp00jy1kbGjXKjx2ZKP3"})]
+                    stage-Ff0P5pQ0GYKVBB0g1FG27BV8.vendor_exome_bedfile
+                  (file)
                 stage-Ff0P73j0GYKX41VkF3j62F9j: Sample Information:
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.read_group_platform
                   (string, default="ILLUMINA")]
