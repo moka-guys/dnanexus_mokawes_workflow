@@ -7,7 +7,7 @@ Name                MokaWES_v1.7
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.6
+Properties          github release=v1.7
 Tags                WES
 Outgoing links      -
 Created             Mon Jan 20 09:53:16 2020
