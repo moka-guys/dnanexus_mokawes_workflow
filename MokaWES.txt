@@ -7,13 +7,13 @@ Name                MokaWES_v1.7
 State               open
 Visibility          visible
 Types               -
-Properties          github release=v1.7
+Properties          github release=v1.6
 Tags                WES
 Outgoing links      -
 Created             Mon Jan 20 09:53:16 2020
 Created by          mokaguys
-Last modified       Mon Jan 20 09:53:16 2020
-Edit Version        0
+Last modified       Wed Jan 22 15:49:00 2020
+Edit Version        8
 Title               MokaWES_v1.7
 Summary             
 Output Folder       -
@@ -57,7 +57,8 @@ Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                   "stage-Ff0P73j0GYKX41VkF3j62F9j"}})]
                     [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.fasta_index (file, default={"$dnanexus_link":
                   "file-ByYgX700b80gf4ZY1GxvF3Jv"})]
-                    stage-Ff0P5pQ0GYKVBB0g1FG27BV8.vendor_exome_bedfile (file)
+                    [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.vendor_exome_bedfile (file,
+                  default={"$dnanexus_link": "file-Fb8XFp00jy1kbGjXKjx2ZKP3"})]
                 stage-Ff0P73j0GYKX41VkF3j62F9j: Sample Information:
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.read_group_platform (string,
                   default="ILLUMINA")]
