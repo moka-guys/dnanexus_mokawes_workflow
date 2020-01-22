@@ -12,8 +12,8 @@ Tags                WES
 Outgoing links      -
 Created             Mon Jan 20 09:53:16 2020
 Created by          mokaguys
-Last modified       Wed Jan 22 15:49:00 2020
-Edit Version        8
+Last modified       Wed Jan 22 16:31:56 2020
+Edit Version        18
 Title               MokaWES_v1.7
 Summary             
 Output Folder       -
@@ -58,7 +58,7 @@ Input Spec          stage-Ff0P7v00GYKv869p5Fgp9pgy:
                     [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.fasta_index (file, default={"$dnanexus_link":
                   "file-ByYgX700b80gf4ZY1GxvF3Jv"})]
                     [stage-Ff0P5pQ0GYKVBB0g1FG27BV8.vendor_exome_bedfile (file,
-                  default={"$dnanexus_link": "file-Fb8XFp00jy1kbGjXKjx2ZKP3"})]
+                  default={"$dnanexus_link": "file-F25VXZj0ybjzxpg0JvppGgQq"})]
                 stage-Ff0P73j0GYKX41VkF3j62F9j: Sample Information:
                     [stage-Ff0P73j0GYKX41VkF3j62F9j.read_group_platform (string,
                   default="ILLUMINA")]
